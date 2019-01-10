@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HolidayProject_Ver2.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{68330B20-C3F4-4DF1-B8AA-037E542073A4}</UniqueIdentifier>
+      <UniqueIdentifier>{69B5D95F-0B3A-47E3-9D51-F535830242C5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HolidayProject_Ver2.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{30B2A679-CE1F-4A64-887C-2AB23492BBFF}</UniqueIdentifier>
+      <UniqueIdentifier>{9D181AD0-EF60-470C-AC1F-DC9E4439AEBF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HolidayProject_Ver2">
-      <UniqueIdentifier>{0D34DE67-9285-42A9-9D4A-F8811C902088}</UniqueIdentifier>
+      <UniqueIdentifier>{26945738-B709-4336-8230-7C92239DB599}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\HolidayProject_Ver2\Bullet.cpp">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HolidayProject_Ver2\Bullet.h">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClInclude>
     <None Include="..\..\Source\HolidayProject_Ver2\HolidayProject_Ver2.Build.cs">
       <Filter>Source\HolidayProject_Ver2</Filter>
     </None>
@@ -41,39 +47,29 @@
     <ClInclude Include="..\..\Source\HolidayProject_Ver2\HolidayProject_Ver2GameModeBase.h">
       <Filter>Source\HolidayProject_Ver2</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\HolidayProject_Ver2\MyPlayerCharacter.h">
-      <Filter>Source\HolidayProject_Ver2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\HolidayProject_Ver2\MyCamera.h">
-      <Filter>Source\HolidayProject_Ver2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\HolidayProject_Ver2\MyCameraManager.h">
-      <Filter>Source\HolidayProject_Ver2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\HolidayProject_Ver2\MyPlayerController.h">
-      <Filter>Source\HolidayProject_Ver2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\HolidayProject_Ver2\Bullet.h">
-      <Filter>Source\HolidayProject_Ver2</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\HolidayProject_Ver2\MyPlayerCharacter.cpp">
-      <Filter>Source\HolidayProject_Ver2</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\HolidayProject_Ver2\MyCamera.cpp">
       <Filter>Source\HolidayProject_Ver2</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\HolidayProject_Ver2\MyCamera.h">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\HolidayProject_Ver2\MyCameraManager.cpp">
       <Filter>Source\HolidayProject_Ver2</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\HolidayProject_Ver2\MyCameraManager.h">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HolidayProject_Ver2\MyPlayerCharacter.cpp">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HolidayProject_Ver2\MyPlayerCharacter.h">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\HolidayProject_Ver2\MyPlayerController.cpp">
       <Filter>Source\HolidayProject_Ver2</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\HolidayProject_Ver2\Bullet.cpp">
+    <ClInclude Include="..\..\Source\HolidayProject_Ver2\MyPlayerController.h">
       <Filter>Source\HolidayProject_Ver2</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>

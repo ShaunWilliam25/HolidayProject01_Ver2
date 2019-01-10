@@ -13,5 +13,11 @@ UCLASS()
 class HOLIDAYPROJECT_VER2_API ABullet : public APaperCharacter
 {
 	GENERATED_BODY()
-	
+private:
+	UPROPERTY(EditAnywhere, Category = "AutoMovement")
+	float movementSpeed;
+
+public:
+	UFUNCTION(BlueprintCallable, Category = "AutoMovement")
+	void MoveBullet();
 };

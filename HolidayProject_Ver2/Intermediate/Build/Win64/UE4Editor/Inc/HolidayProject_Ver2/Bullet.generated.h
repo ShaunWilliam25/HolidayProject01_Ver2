@@ -13,8 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define HOLIDAYPROJECT_VER2_Bullet_generated_h
 
-#define HolidayProject_Ver2_Source_HolidayProject_Ver2_Bullet_h_15_RPC_WRAPPERS
-#define HolidayProject_Ver2_Source_HolidayProject_Ver2_Bullet_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define HolidayProject_Ver2_Source_HolidayProject_Ver2_Bullet_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execMoveBullet) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->MoveBullet(); \
+		P_NATIVE_END; \
+	}
+
+
+#define HolidayProject_Ver2_Source_HolidayProject_Ver2_Bullet_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execMoveBullet) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->MoveBullet(); \
+		P_NATIVE_END; \
+	}
+
+
 #define HolidayProject_Ver2_Source_HolidayProject_Ver2_Bullet_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABullet(); \
@@ -59,7 +79,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABullet); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABullet)
 
 
-#define HolidayProject_Ver2_Source_HolidayProject_Ver2_Bullet_h_15_PRIVATE_PROPERTY_OFFSET
+#define HolidayProject_Ver2_Source_HolidayProject_Ver2_Bullet_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__movementSpeed() { return STRUCT_OFFSET(ABullet, movementSpeed); }
+
+
 #define HolidayProject_Ver2_Source_HolidayProject_Ver2_Bullet_h_12_PROLOG
 #define HolidayProject_Ver2_Source_HolidayProject_Ver2_Bullet_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
