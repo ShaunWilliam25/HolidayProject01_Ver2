@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HolidayProject_Ver2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{68330B20-C3F4-4DF1-B8AA-037E542073A4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HolidayProject_Ver2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HolidayProject_Ver2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{30B2A679-CE1F-4A64-887C-2AB23492BBFF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HolidayProject_Ver2">
+      <UniqueIdentifier>{0D34DE67-9285-42A9-9D4A-F8811C902088}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HolidayProject_Ver2\HolidayProject_Ver2.Build.cs">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HolidayProject_Ver2\HolidayProject_Ver2.cpp">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HolidayProject_Ver2\HolidayProject_Ver2.h">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HolidayProject_Ver2\HolidayProject_Ver2GameModeBase.cpp">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HolidayProject_Ver2\HolidayProject_Ver2GameModeBase.h">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\HolidayProject_Ver2\MyPlayerCharacter.h">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\HolidayProject_Ver2\MyCamera.h">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\HolidayProject_Ver2\MyCameraManager.h">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\HolidayProject_Ver2\MyPlayerController.h">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\HolidayProject_Ver2\Bullet.h">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\HolidayProject_Ver2\MyPlayerCharacter.cpp">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HolidayProject_Ver2\MyCamera.cpp">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HolidayProject_Ver2\MyCameraManager.cpp">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HolidayProject_Ver2\MyPlayerController.cpp">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HolidayProject_Ver2\Bullet.cpp">
+      <Filter>Source\HolidayProject_Ver2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

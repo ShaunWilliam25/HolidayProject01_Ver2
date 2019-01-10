@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-HolidayProject_Ver2.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Repositories\HolidayProject01_Ver02\HolidayProject_Ver2\Intermediate\Build\Win64\HolidayProject_Ver2Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Repositories\HolidayProject01_Ver02\HolidayProject_Ver2\Intermediate\Build\Win64\UE4Editor\Development\HolidayProject_Ver2\HolidayProject_Ver2.cpp.obj"
+"D:\Repositories\HolidayProject01_Ver02\HolidayProject_Ver2\Intermediate\Build\Win64\UE4Editor\Development\HolidayProject_Ver2\HolidayProject_Ver2GameModeBase.cpp.obj"
+"D:\Repositories\HolidayProject01_Ver02\HolidayProject_Ver2\Intermediate\Build\Win64\UE4Editor\Development\HolidayProject_Ver2\HolidayProject_Ver2.init.gen.cpp.obj"
+"D:\Repositories\HolidayProject01_Ver02\HolidayProject_Ver2\Intermediate\Build\Win64\UE4Editor\Development\HolidayProject_Ver2\HolidayProject_Ver2GameModeBase.gen.cpp.obj"
+"D:\Repositories\HolidayProject01_Ver02\HolidayProject_Ver2\Intermediate\Build\Win64\UE4Editor\Development\HolidayProject_Ver2\PCLaunch.rc.res"
+/OUT:"D:\Repositories\HolidayProject01_Ver02\HolidayProject_Ver2\Intermediate\Build\Win64\UE4Editor\Development\HolidayProject_Ver2\UE4Editor-HolidayProject_Ver2.lib"
